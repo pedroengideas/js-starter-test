@@ -2,7 +2,7 @@
 
 Proyecto modificado:
 
-se han realizado las tareas correcpondientes a la prueba
+se han realizado las tareas correspondientes a la prueba
 
 debe realizar un fork o un clone de este proyecto e iniciarlo 
 con npm install
