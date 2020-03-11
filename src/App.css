@@ -1,0 +1,116 @@
+body {
+    background: #ffffff;
+    color: #1a1a1a;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.app-container {
+    margin: 20px 20px 20px 20px;
+    width: auto;
+    text-align: left;
+}
+
+img.logo {
+
+    width: 250px;
+    padding: 100px 100px 30px;
+    margin: auto;
+    display: block;
+}
+
+h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    line-height: 1;
+    color: #c33;
+}
+
+h4 small {
+    color: #777;
+    display: block;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: lighter;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.course {
+    margin: 20px 0;;
+}
+
+.course h3, .course p {
+    padding: 0;
+    margin: auto;
+}
+
+.academic .btn-academic button {
+    box-sizing: border-box;
+    font-size: 12px;
+    border: none;
+    background-color: #c33;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.btn-academic {
+    padding: 0;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-group legend {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    font-size: 15px;
+    display: block;
+}
+
+.form-group input, .form-group select {
+    border-radius: 2%;
+    padding: 5px 5px;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.container-register {
+    display: grid;
+    grid-template-areas: "headers headers"
+                        "course students";
+}
+
+.container-register .headers {
+    grid-area: headers;
+}
+
+.container-register .courses {
+    grid-area: course;
+}
+
+.container-register .students {
+    grid-area: students;
+}
+
+@media screen and (max-width:767px) {
+    .container-register {
+        grid-template-areas: "headers"
+                            "course"
+                            "students";
+    }
+
+    .container-register .headers {
+        text-align: center;
+    }
+}
